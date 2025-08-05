@@ -1,0 +1,140 @@
+
+header {
+    background-color:   #c1a075;
+    font-size: 24px;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+nav {
+    background-color: #c1a075;
+    font-size: 14px;
+    padding: 10px;
+    border-bottom: 2px solid #ccc;
+}
+
+nav a:hover {
+    color: palevioletred;
+}
+
+nav a {
+    color: #2b2b2b;
+    text-decoration: none;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+main {
+    flex: 1;
+}
+
+
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: burlywood;
+}
+
+.headshot-pic {
+    float: right;
+    width: 250px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+
+.resume-content {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+    background-color: #d9d9d9;
+    border: 1px solid black;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 1000px;
+}
+.resume-columns {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.resume-content section,
+.resume-content aside {
+    background-color: #f1f1f1;
+    padding: 10px;
+    flex: 1;
+    box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+
+.resume-columns section,
+.resume-columns aside {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 15px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.resume-content h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+}
+
+.resume-content ul {
+    padding-left: 20px;
+}
+
+footer{
+    background-color: #ecd4b7;
+    color: #222;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid #333;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.hhlogo {
+    max-width: 250px;
+    height: auto;
+    flex-shrink: 0;
+    object-fit:  contain;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.github-logo {
+    max-width: 100px;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+    padding: 5px;
+}
+
+.hhbib-logo {
+    max-width: 150px;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.linkedin-logo {
+    max-width: 200px;
+    height: auto;
+    flex-shrink: 0;
+    object-fit: contain;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
